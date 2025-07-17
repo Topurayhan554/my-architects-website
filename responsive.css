@@ -4,8 +4,19 @@
   .features {
     flex-direction: column;
   }
-  .team-image {
+  .team-image,
+  .fact-container,
+  .sponsor-img {
     grid-template-columns: 1fr;
+  }
+  .fact-container,
+  .sponsor-img {
+    justify-items: center;
+    gap: 30px;
+  }
+  .fact-section {
+    text-align: center;
+    justify-items: center;
   }
   .team-title-parent {
     width: 100%;
@@ -28,6 +39,19 @@
   .team-parent,
   .features {
     flex-direction: column;
+  }
+  .fact-container,
+  .sponsor-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fact-container,
+  .sponsor-img {
+    justify-items: center;
+    gap: 30px;
+  }
+  .fact-section {
+    text-align: center;
+    justify-items: center;
   }
   .team-title-parent {
     width: 100%;
