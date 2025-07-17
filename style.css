@@ -102,3 +102,47 @@
   width: 530px;
   margin-left: 130px;
 }
+
+/* features section */
+.features {
+  margin: 100px auto;
+  gap: 140px;
+}
+.features-title {
+  font-size: 2.89rem;
+  font-weight: 500;
+  color: #131313;
+}
+#features-title-parent {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.features-card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #131313;
+}
+.features-image img {
+  width: 100%;
+}
+.features-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-years {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.btn-experience {
+  font-size: 25px;
+  font-weight: 500;
+}
+#btn-primary {
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -100px;
+}

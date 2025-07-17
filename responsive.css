@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   .navbar,
-  .team-parent {
+  .team-parent,
+  .features {
     flex-direction: column;
   }
   .team-image {
@@ -11,17 +12,30 @@
     margin: 20px;
     text-align: center;
   }
+  .features {
+    gap: 0;
+    justify-items: center;
+  }
+  #btn-primary {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 }
 
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar,
-  .team-parent {
+  .team-parent,
+  .features {
     flex-direction: column;
   }
   .team-title-parent {
     width: 100%;
     margin: 20px;
     text-align: center;
+  }
+  #btn-primary {
+    margin-left: 20px;
+    margin-top: 20px;
   }
 }
