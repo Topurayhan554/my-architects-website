@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+  .navbar,
+  .team-parent {
+    flex-direction: column;
+  }
+  .team-image {
+    grid-template-columns: 1fr;
+  }
+  .team-title-parent {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+}
+
+/* tablet device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar,
+  .team-parent {
+    flex-direction: column;
+  }
+  .team-title-parent {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+}

@@ -55,6 +55,9 @@
 }
 
 /* banner */
+.banner {
+  padding-bottom: 20px;
+}
 .banner-parent {
   max-width: 860px;
   text-align: center;
@@ -68,4 +71,34 @@
 }
 .banner img {
   width: 100%;
+}
+
+/* team style */
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.team-parent {
+  align-items: center;
+  margin-top: 75px;
+}
+.team-title {
+  font-size: 2.89rem;
+}
+.team-1 {
+  color: #727272;
+  font-weight: 500;
+}
+.team-2 {
+  color: #131313;
+  font-weight: bold;
+}
+.team-3 {
+  color: #ff900e;
+  font-weight: 500;
+}
+.team-title-parent {
+  width: 530px;
+  margin-left: 130px;
 }
