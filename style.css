@@ -6,3 +6,66 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* common css */
+.display-flex {
+  display: flex;
+}
+.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.bg-color {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.dark-1 {
+  color: #131313;
+}
+.dark-3 {
+  color: rgb(114, 114, 114);
+}
+.btn {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 20px 25px;
+  color: #ffffff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+}
+
+/* navbar */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h3 {
+  font-size: 2.88rem;
+  font-weight: 500;
+  color: rgb(19, 19, 19);
+}
+
+.nav-items {
+  list-style: none;
+}
+.nav-items a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  margin-right: 30px;
+}
+
+/* banner */
+.banner-parent {
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.banner h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: Dark 01;
+}
+.banner img {
+  width: 100%;
+}
