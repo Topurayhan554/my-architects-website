@@ -211,3 +211,13 @@
   margin: 40px auto;
   text-align: center;
 }
+/* footer */
+
+#footer-section {
+  background-color: #fff4e7;
+  font-size: 1.25rem;
+  color: #424242;
+  font-weight: 500;
+  padding: 39px 0px;
+  text-align: center;
+}
